@@ -15,7 +15,6 @@ var GulpUglifyError = require('./lib/gulp-uglify-error');
 var reSourceMapComment = /\n\/\/# sourceMappingURL=.+?$/;
 
 var defaultOptions = defaultsDeep({
-  fromString: true,
   output: {}
 });
 

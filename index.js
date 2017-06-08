@@ -1,5 +1,5 @@
 'use strict';
-var uglify = require('uglify-js');
+var uglify = require('uglify-es');
 var minifier = require('./minifier');
 var GulpUglifyError = require('./lib/gulp-uglify-error');
 
